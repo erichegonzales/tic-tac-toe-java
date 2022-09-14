@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=APlayer
+comment0.text=\n\ An\ abstract\ class\ representing\ a\ generic\ Tic-tac-toe\ game\ player.\n\n\ @version\ CMPU-102\ special\ edition\n\ @author\ Eriche\ Gonzales\n\ @date\ April\ 1,\ 2022\n
+comment1.params=
+comment1.target=APlayer()
+comment1.text=\n\ Empty\ constructor\ for\ objects\ of\ class\ ATicPlayer.\n
+comment2.params=game\ symbol
+comment2.target=APlayer(Game,\ char)
+comment2.text=\n\ Constructor\ for\ objects\ of\ class\ ATicPlayer.\n\ @param\ game\ the\ tic-tac-toe\ game\ that\ is\ to\ be\ played\n\ @param\ symbol\ the\ character\ symbol\ to\ be\ used\ to\ represent\ this\ player's\ moves\n
+comment3.params=
+comment3.target=char\ getSymbol()
+comment3.text=\n\ Returns\ the\ symbol\ that\ represents\ this\ player.\n\ @return\ a\ char\ representing\ the\ player's\ symbol\n
+comment4.params=
+comment4.target=Move\ pickMove()
+comment4.text=\n\ Makes\ the\ player\ pick\ his\ next\ move.\ Each\ concrete\ type\ of\ player\ should\ implement\ this\ method\ according\ to\ its\ own\ semantics.\ The\ only\ thing\ that\ is\ required\ is\ that\ the\ method\ returns\ a\ valid\ move\ (i.e.\ an\ unocuppied\ position\ within\ the\ bounds\ of\ the\ game\ board)\ or\ null\ to\ signify\ that\ the\ player\ desires\ to\ exit\ the\ program.\n\ @return\ the\ move\ picked\ by\ the\ player\n
+numComments=5
